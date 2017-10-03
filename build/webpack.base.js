@@ -33,6 +33,7 @@ module.exports = {
     alias: {
       root: path.join(__dirname, '../client'),
       components: path.join(__dirname, '../client/components'),
+      containers: path.join(__dirname, '../client/containers'),
       views: path.join(__dirname, '../client/views'),
       router: path.join(__dirname, '../client/router'),
       theme: path.join(__dirname, '../theme'), // get Element-UI icons
