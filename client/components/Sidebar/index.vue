@@ -30,12 +30,6 @@
 export default {
   name: 'Sidebar',
   props: ['active'],
-  computed () {
-      active: () => {
-          console.log(this)
-          return this.active
-      }
-  }
 }
 </script>
 
